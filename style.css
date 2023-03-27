@@ -1,0 +1,35 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1679849808529-8a8156cf13a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
+    position: absolute;
+    top: 50%;
+	left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+.container {
+    color: rgb(16, 16, 17);
+}
+
+.card-body {
+    background-color: antiquewhite;
+}
+
+.card-header, .card-footer {
+    background-color: rgb(167, 250, 250);
+}
+
+#generation.btn.btn-success {
+    margin-right: 50px;
+    cursor: pointer;
+    border: none;
+}
+
+.card-header{
+    font-weight: 900;
+    font-size: 30px;
+    color: rgb(235, 39, 176);
+}
